@@ -1,0 +1,1 @@
+SELECT clientes.nombre, hoteles.nombre_hotel FROM Reservas JOIN clientes ON reservas.cliente_id = clientes.id JOIN hoteles ON reservas.hotel_id = hoteles.id WHERE clientes.nombre = "Zohan Dvir";
