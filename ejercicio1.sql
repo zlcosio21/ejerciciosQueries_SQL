@@ -1,5 +1,11 @@
 /*
-Insertar como mínimo 5 registros en cada tabla. Los hoteles y clientes deben ser: Hoteles: Hotel Windsor, Hotel Sonesta, Hotel Majestic, Hotel Sisa.Clientes: Franco Armani, Guillermo Ochoa, Juana de Arco, Zohan Dvir. La info de las habitaciones y de las reservas insertarlas como quieran, pero los tipos válidos de habitaciones deben ser invidivual , doble , y presidencial. Y los precios deben estar en pesos Colombianos.
+Insertar como mínimo 5 registros en cada tabla. Los hoteles y clientes deben ser:
+Hoteles: Hotel Windsor, Hotel Sonesta, Hotel Majestic, Hotel Sisa.
+Clientes: Franco Armani, Guillermo Ochoa, Juana de Arco, Zohan Dvir.
+La info de las habitaciones y de las reservas insertarlas como quieran,
+pero los tipos válidos de habitaciones deben ser:
+invidivual, doble, y presidencial.
+Y los precios deben estar en pesos Colombianos.
 */
 
 INSERT INTO clientes (nombre, telefono, correo)
@@ -21,7 +27,8 @@ VALUES ("2023-06-15", "2023-06-17", 4, 1, 1),
        ("2023-06-12", "2023-06-14", 2, 2, 2),
        ("2023-06-11", "2023-06-13", 3, 3, 3),
        ("2023-06-18", "2023-06-20", 1, 4, 4),
-       ("2023-06-15", "2023-06-18", 5, 5, 5), ("2023-06-15", "2023-06-18", 4, 4, 4);
+       ("2023-06-15", "2023-06-18", 5, 5, 5),
+       ("2023-06-15", "2023-06-18", 4, 4, 4);
 
 INSERT INTO hoteles (nombre, direccion, clasificacion)
 VALUES ("Hotel Windsor", "Calle 84 con 46", 5),
